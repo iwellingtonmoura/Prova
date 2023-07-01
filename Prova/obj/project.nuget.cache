@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sjUaOop2Vup1fVxAZN4OXVzLudSkLfemObzRcKt30dkAXZfNuaJBQ9IfostldQlIMd3JzhMbVDMBwnvAeAk/5g==",
+  "dgSpecHash": "EtjCquaKLy721oNnzzZuY9UCcDMPqy5oK11/1kkxwrnY0AEAniYMS0hgZa2F9H3KPj8tHq+w5a73EEE0An2XXQ==",
   "success": true,
-  "projectFilePath": "/Users/wellingtonmoura/Projects/Prova/Prova.csproj",
+  "projectFilePath": "/Users/wellingtonmoura/Projects/Desafio/Prova/Prova.csproj",
   "expectedPackageFiles": [
     "/Users/wellingtonmoura/.nuget/packages/autowrapper.core/4.5.0/autowrapper.core.4.5.0.nupkg.sha512",
     "/Users/wellingtonmoura/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",

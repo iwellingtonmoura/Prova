@@ -15,7 +15,8 @@ builder.Services.AddControllers();
 builder.Services.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<ModelExampleRequest>());
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<IDadosProvaManager, DadosProvaManager>();
+builder.Services.AddSingleton<ICadastrarUsuarioManager, CadastrarUsuarioManager>();
+builder.Services.AddSingleton<ICadastrarNotaFiscalManager, CadastrarNotaFiscalManager>();
 builder.Services.AddSingleton<IMongoRepository, MongoRepository>();
 
 builder.Services.AddMemoryCache();

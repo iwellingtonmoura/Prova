@@ -7,36 +7,37 @@ using Prova.Data.DTO.Response;
 using Prova.Data.Models;
 using Prova.Data.Repositories;
 using Prova.DataManager;
+using Prova.Entity;
 
 namespace Prova.Controllers;
 
-[Route("api /[Controller]")]
+[Route("api/[Controller]")]
 [ApiController]
 
-public class ClientesController : Controller
+public class NotaFiscalController : Controller
 {
-	private readonly ILogger<ClientesController> _logger;
+	private readonly ILogger<UsuarioController> _logger;
 	private readonly IConfiguration _configuration;
-	private readonly IDadosProvaManager _dadosProvaManager;
+	private readonly ICadastrarNotaFiscalManager _cadastrarNotaFiscalManager;
 
 
-	public ClientesController(ILogger<ClientesController> logger, IConfiguration configuration, IDadosProvaManager dadosProvaManager)
+	public NotaFiscalController(ILogger<UsuarioController> logger, IConfiguration configuration, ICadastrarNotaFiscalManager cadastrarNotaFiscalManager)
 	{
 		_logger = logger;
 		_configuration = configuration;
-		_dadosProvaManager = dadosProvaManager;
+        _cadastrarNotaFiscalManager = cadastrarNotaFiscalManager;
 
 	}
 
 	[HttpPost]
-	[Route("InserirClientes")]
-	[ProducesResponseType(200, Type = typeof(ResponseWrapper<List<ModelExampleResponse>>))]
+	[Route("CadastrarNotaFiscal")]
+	[ProducesResponseType(200, Type = typeof(ResponseWrapper<List<Invoice>>))]
 	[ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ResponseOnException))]
 	[ProducesResponseType(StatusCodes.Status412PreconditionFailed, Type = typeof(ResponseOnException))]
 	[ProducesResponseType(StatusCodes.Status422UnprocessableEntity, Type = typeof(ResponseOnException))]
 	[ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(ResponseOnException))]
 
-	public async Task<ApiResponse> InserirClientes(ModelExampleRequest exempleRequest)
+	public async Task<ApiResponse> CadastrarUsuario(Invoice invoice)
 	{
 		if (!ModelState.IsValid)
 		{
@@ -46,7 +47,7 @@ public class ClientesController : Controller
 		{
 			try
 			{
-				return new ApiResponse( await _dadosProvaManager.InserirDados(exempleRequest), StatusCodes.Status200OK);
+				return new ApiResponse( await _cadastrarNotaFiscalManager.CadastrarNotaFiscalAsync(invoice), StatusCodes.Status200OK);
 			}
 			catch (ApiException ex)
 			{

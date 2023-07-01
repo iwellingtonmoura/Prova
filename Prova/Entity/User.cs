@@ -32,12 +32,12 @@ public class User : Document
         /// Valor mínimo para visto ou aprovação
         /// </summary>
         [JsonPropertyName("MinValue")]
-	public string? MinValue { get; set; }
+	public float MinValue { get; set; }
 
         /// <summary>
         /// Valor máximo para visto ou aprovação
         /// </summary>
         [JsonPropertyName("MaxValue")]
-	public string? MaxValue { get; set; }
+	public float MaxValue { get; set; }
 }
 

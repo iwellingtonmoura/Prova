@@ -47,7 +47,7 @@ namespace Prova.Entity;
 	[JsonPropertyName("Status")]
 	public string? Status { get; set; }
 
-	public ApprovalHistory approvalHistory { get; set; }
+	public List<ApprovalHistory> approvalHistory { get; set; }
 }
 
 
@@ -62,7 +62,7 @@ public class ApprovalHistory
 	/// Usário da Aprovação
 	/// </summary>
 	[JsonPropertyName("UserId")]
-	public User? UserId { get; set; }
+	public string UserId { get; set; }
 	/// <summary>
 	/// Visto ou Aprovação
 	/// </summary>
