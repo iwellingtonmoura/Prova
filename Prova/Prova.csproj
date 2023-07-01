@@ -21,10 +21,12 @@
     <None Remove="Data\" />
     <None Remove="Controllers\" />
     <None Remove="Data\DTO\Request\" />
+    <None Remove="Entity\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Data\DTO\Request\" />
+    <Folder Include="Entity\" />
   </ItemGroup>
 </Project>

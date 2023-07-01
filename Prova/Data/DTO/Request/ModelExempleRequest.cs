@@ -21,6 +21,7 @@ public class ModelExampleRequest : Document
     public string? Endereco { get; set; }
 
 }
+
     public class ModelExampleRequestValidator : AbstractValidator<ModelExampleRequest>
 {
 	public ModelExampleRequestValidator()

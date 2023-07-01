@@ -1424,11 +1424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/wellingtonmoura/Projects/ProjectJohn/Prova/Prova.csproj",
+      "projectUniqueName": "/Users/wellingtonmoura/Projects/Prova/Prova.csproj",
       "projectName": "Prova",
-      "projectPath": "/Users/wellingtonmoura/Projects/ProjectJohn/Prova/Prova.csproj",
+      "projectPath": "/Users/wellingtonmoura/Projects/Prova/Prova.csproj",
       "packagesPath": "/Users/wellingtonmoura/.nuget/packages/",
-      "outputPath": "/Users/wellingtonmoura/Projects/ProjectJohn/Prova/obj/",
+      "outputPath": "/Users/wellingtonmoura/Projects/Prova/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/wellingtonmoura/.nuget/NuGet/NuGet.Config"
