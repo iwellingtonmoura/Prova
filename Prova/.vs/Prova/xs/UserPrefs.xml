@@ -1,35 +1,43 @@
-﻿<Properties StartupConfiguration="{617D23AC-1DA8-425F-B875-320AED246F35}|https">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{617D23AC-1DA8-425F-B875-320AED246F35}|https">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Data/DTO/Request/ModelExempleRequest.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/Controllers/UsuarioController.cs" relfile="Controllers/UsuarioController.cs" line="24" column="1" />
+      <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/DataManager/CadastrarUsuarioManager.cs" relfile="DataManager/CadastrarUsuarioManager.cs" line="27" column="1" />
+      <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/DataManager/CadastrarNotaFiscalManager.cs" relfile="DataManager/CadastrarNotaFiscalManager.cs" line="24" column="1" />
+      <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/Data/Repositories/MongoRepositorty.cs" relfile="Data/Repositories/MongoRepositorty.cs" line="80" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Prova PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Entity/Invoice.cs">
     <Files>
-      <File FileName="DataManager/DadosProvaManager.cs" Line="1" Column="1" />
-      <File FileName="Data/DTO/Response/ModelExampleResponse.cs" Line="1" Column="1" />
-      <File FileName="Data/DTO/Request/ModelExempleRequest.cs" Line="24" Column="1" />
+      <File FileName="Entity/ApprovalRange.cs" Line="32" Column="13" />
+      <File FileName="Entity/Invoice.cs" Line="45" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prova" expanded="True">
             <Node name="Prova" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True">
+                <Node name="Atrributes" expanded="True" />
                 <Node name="DTO" expanded="True">
-                  <Node name="Request" expanded="True">
-                    <Node name="ModelExempleRequest.cs" selected="True" />
-                  </Node>
+                  <Node name="Request" expanded="True" />
                   <Node name="Response" expanded="True" />
                 </Node>
+                <Node name="Models" expanded="True" />
+                <Node name="Repositories" expanded="True" />
               </Node>
               <Node name="DataManager" expanded="True" />
+              <Node name="Entity" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Prova FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

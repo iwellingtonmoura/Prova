@@ -19,18 +19,19 @@ namespace Prova.Entity;
 
 	/// <summary>
 	/// Valor das Mercadorias
+	/// 
 	/// </summary>
 	[JsonPropertyName("CommodityPrice")]
 	public float CommodityPrice { get; set; }
 
 	/// <summary>
-	/// Valor de Desconto
+	/// Valor de Desconto da nota
 	/// </summary>
 	[JsonPropertyName("Discount")]
 	public float Discount { get; set; }
 
 	/// <summary>
-	/// Valor de Frete
+	/// Valor de Frete pago
 	/// </summary>
         [JsonPropertyName("FreightValue")]
         public float FreightValue { get; set; }
