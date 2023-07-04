@@ -14,13 +14,13 @@ namespace Prova.Entity
         /// Faixa Inicial
         /// </summary>
         [JsonPropertyName("RangeInitial")]
-        public float RangeInitial { get; set; }
+        public string RangeInitial { get; set; }
 
         /// <summary>
         /// Faixa Final
         /// </summary>
         [JsonPropertyName("RangeFinal")]
-        public float RangeFinal { get; set; }
+        public string RangeFinal { get; set; }
 
         /// <summary>
         /// Vistos
@@ -33,8 +33,6 @@ namespace Prova.Entity
         /// </summary>
         [JsonPropertyName("Approvals")]
         public int Approvals { get; set; }
-
-
     }
 }
 

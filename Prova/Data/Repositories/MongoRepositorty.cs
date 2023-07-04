@@ -23,6 +23,8 @@ public interface IMongoRepository
 	Task<Invoice> InserirNotaFiscalAsync(Invoice invoice);
 	Task AtualizarNotaFiscalAsync(Invoice invoice, ObjectId objectId);
 
+	Task<ApprovalRange> InserirRangeAprovacaoAsync(ApprovalRange approvalRange);
+
     }
 
 public class MongoRepository : MongoDbFactoryBase, IMongoRepository
@@ -71,6 +73,11 @@ public class MongoRepository : MongoDbFactoryBase, IMongoRepository
     public async Task AtualizarNotaFiscalAsync(Invoice invoice, ObjectId objectId)
     {
         await ReplaceOneAsync(invoice, objectId);
+    }
+
+    public async Task<ApprovalRange> InserirRangeAprovacaoAsync(ApprovalRange approvalRange)
+    {
+        return await InsertOneAsync<ApprovalRange>(approvalRange);
     }
 
 }

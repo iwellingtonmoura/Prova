@@ -49,8 +49,8 @@
 /Users/wellingtonmoura/Projects/ProjectJohn/Prova/obj/Debug/net7.0/Prova.pdb
 /Users/wellingtonmoura/Projects/ProjectJohn/Prova/obj/Debug/net7.0/Prova.genruntimeconfig.cache
 /Users/wellingtonmoura/Projects/ProjectJohn/Prova/obj/Debug/net7.0/ref/Prova.dll
-/Users/wellingtonmoura/Projects/Desafio/Prova/bin/Debug/net7.0/appsettings.json
 /Users/wellingtonmoura/Projects/Desafio/Prova/bin/Debug/net7.0/appsettings.Development.json
+/Users/wellingtonmoura/Projects/Desafio/Prova/bin/Debug/net7.0/appsettings.json
 /Users/wellingtonmoura/Projects/Desafio/Prova/bin/Debug/net7.0/Prova
 /Users/wellingtonmoura/Projects/Desafio/Prova/bin/Debug/net7.0/Prova.deps.json
 /Users/wellingtonmoura/Projects/Desafio/Prova/bin/Debug/net7.0/Prova.runtimeconfig.json

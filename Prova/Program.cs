@@ -17,6 +17,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<ICadastrarUsuarioManager, CadastrarUsuarioManager>();
 builder.Services.AddSingleton<ICadastrarNotaFiscalManager, CadastrarNotaFiscalManager>();
+builder.Services.AddSingleton<ICadastrarRangeAprovacaoManager, CadastrarRangeAprovacaoManager>();
 builder.Services.AddSingleton<IMongoRepository, MongoRepository>();
 
 builder.Services.AddMemoryCache();
