@@ -1,4 +1,8 @@
 is_global = true
+build_property.DesignTimeBuild = 
+build_property.MSBuildProjectFullPath = /Users/wellingtonmoura/Projects/Desafio/Prova/Prova.csproj
+build_property.DebugSponsorLink = 
+build_property.ThisAssemblyNamespace = 
 build_property.TargetFramework = net7.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
@@ -10,8 +14,223 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Prova
 build_property.RootNamespace = Prova
 build_property.ProjectDir = /Users/wellingtonmoura/Projects/Desafio/Prova/
+build_property.GitIsDirty = 1
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /Users/wellingtonmoura/Projects/Desafio/Prova
 build_property._RazorSourceGeneratorDebug = 
+
+[/Users/wellingtonmoura/.nuget/packages/gitinfo/3.1.0/analyzers/dotnet/roslyn4.0/GitInfo.CodeAnalysis.dll]
+build_metadata.AdditionalFiles.SourceItemType = Analyzer
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = GitInfo
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/GitInfo/3.1.0]
+build_metadata.AdditionalFiles.SourceItemType = PackageDependencies
+build_metadata.AdditionalFiles.SourceIdentity = GitInfo
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/IsDirtyString]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = true
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/RepositoryUrl]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/Branch]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = develop
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/Commit]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = fb8138c
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/Sha]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = fb8138cdc0ca7745ffca5be5000e294718a7264a
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/CommitDate]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 2023-07-04T20:43:06-03:00
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/Commits]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 6
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/Tag]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/BaseTag]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/BaseVersion.Major]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 0
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/BaseVersion.Minor]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 0
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/BaseVersion.Patch]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 0
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/SemVer.Major]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 0
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/SemVer.Minor]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 0
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/SemVer.Patch]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 6
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/SemVer.Label]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/SemVer.DashLabel]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/wellingtonmoura/Projects/Desafio/Prova/SemVer.Source]
+build_metadata.AdditionalFiles.SourceItemType = Constant
+build_metadata.AdditionalFiles.SourceIdentity = 
+build_metadata.AdditionalFiles.NuGetPackageId = 
+build_metadata.AdditionalFiles.ParentPackage = 
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = Default
+build_metadata.Constant.Root = Git
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 

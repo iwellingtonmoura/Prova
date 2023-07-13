@@ -2,10 +2,8 @@
 using AutoWrapper.Extensions;
 using AutoWrapper.Wrappers;
 using Microsoft.AspNetCore.Mvc;
-using Prova.Data.DTO.Request;
 using Prova.Data.DTO.Response;
 using Prova.Data.Models;
-using Prova.Data.Repositories;
 using Prova.DataManager;
 using Prova.Entity;
 
@@ -46,7 +44,7 @@ public class UsuarioController : Controller
 		else
 		{
 			try
-			{
+			{ 
 				return new ApiResponse( await _cadastrarUsuarioManager.CadastrarUsuarioAsync(user), StatusCodes.Status200OK);
 			}
 			catch (ApiException ex)

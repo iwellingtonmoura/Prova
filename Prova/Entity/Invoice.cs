@@ -8,12 +8,13 @@ using Prova.Data.Models;
 namespace Prova.Entity;
 
     [BsonIgnoreExtraElements]
-    [BsonCollection("Invoice")]
+    [Collection("Invoice")]
     public class Invoice : Document
 {
 	/// <summary>
 	/// Data de emissão da nota fiscal
 	/// </summary>
+	[BsonDateTimeOptions(Kind = DateTimeKind.Unspecified)]	
 	[JsonPropertyName("DateIssue")]
 	public DateTime DateIssue { get; set; }
 
@@ -63,7 +64,7 @@ public class ApprovalHistory
 	/// Usário da Aprovação
 	/// </summary>
 	[JsonPropertyName("UserId")]
-	public string UserId { get; set; }
+	public string? UserId { get; set; }
 	/// <summary>
 	/// Visto ou Aprovação
 	/// </summary>

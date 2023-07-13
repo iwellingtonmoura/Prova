@@ -1,8 +1,7 @@
 ﻿using AutoWrapper;
 using FluentValidation.AspNetCore;
-using Prova.Data.DTO.Request;
-using Prova.Data.Repositories;
 using Prova.DataManager;
+using Prova.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,13 +11,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<ModelExampleRequest>());
+//builder.Services.AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<ModelExampleRequest>());
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<ICadastrarUsuarioManager, CadastrarUsuarioManager>();
-builder.Services.AddSingleton<ICadastrarNotaFiscalManager, CadastrarNotaFiscalManager>();
-builder.Services.AddSingleton<ICadastrarRangeAprovacaoManager, CadastrarRangeAprovacaoManager>();
-builder.Services.AddSingleton<IMongoRepository, MongoRepository>();
+
+
+//Adicionando a classe que injeta os serviços.
+builder.Services.AddProvaWorker(builder.Configuration);
 
 builder.Services.AddMemoryCache();
 

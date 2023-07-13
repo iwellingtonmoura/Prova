@@ -6,7 +6,7 @@ using Prova.Data.Models;
 namespace Prova.Data.DTO.Response;
 
 [BsonIgnoreExtraElements]
-[BsonCollection("dados_clientes")]
+[Collection("dados_clientes")]
 public class ModelExampleResponse : Document
 {
     [JsonPropertyName("Cpf")]

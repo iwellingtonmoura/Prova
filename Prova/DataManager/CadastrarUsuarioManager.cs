@@ -1,39 +1,60 @@
-﻿using System;
+﻿
+using AutoWrapper.Wrappers;
+using MongoDB.Driver;
 using Prova.Data.DTO.Request;
-using Prova.Data.Repositories;
+using Prova.Data.Interfaces;
 using Prova.Entity;
+using Prova.Interfaces;
+using Prova.Services;
 
 namespace Prova.DataManager;
 
 public interface ICadastrarUsuarioManager
 {
-    Task<User> CadastrarUsuarioAsync(User user);
+    Task CadastrarUsuarioAsync(User user);
     Task AtualizarUsuarioAsync(User user);
 }
 
 
 public class CadastrarUsuarioManager : ICadastrarUsuarioManager
 {
+    private readonly IMongoDbRepository<ProvaConfiguration> _mongoDbRepository;
+    private readonly ILogger<CadastrarUsuarioManager> _logger;
 
-    private readonly IMongoRepository _mongoRepository;
-
-    public CadastrarUsuarioManager(IMongoRepository mongoRepository)
+    public CadastrarUsuarioManager(
+        IMongoDbRepository<ProvaConfiguration> mongoDbRepository,
+        ILogger<CadastrarUsuarioManager> logger)
     {
-        _mongoRepository = mongoRepository;
+        _mongoDbRepository = mongoDbRepository;
+        _logger = logger;
     }
 
 
-    public async Task<User> CadastrarUsuarioAsync(User user)
+    public async Task CadastrarUsuarioAsync(User user)
     {
-
-        return await _mongoRepository.InserirUsuarioAsync(user);
-
+        try
+        {
+             await _mongoDbRepository.GetCollection<User>().InsertAsync(user);
+        }
+        catch (ApiException ex)
+        {
+            _logger.LogError(ex, ex.Message);
+            throw new ApiException(ex);
+        }
     }
 
     public async Task AtualizarUsuarioAsync(User user)
     {
 
-        await _mongoRepository.AtualizarUsuarioAsync(user, user.Id);
+        try
+        {
+            await _mongoDbRepository.GetCollection<User>().ReplaceAsync(user, user.Id);
+        }
+        catch (ApiException ex)
+        {
+            _logger.LogError(ex, ex.Message);
+            throw new ApiException(ex);
+        }
 
     }
 }

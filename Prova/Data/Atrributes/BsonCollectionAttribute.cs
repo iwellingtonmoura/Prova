@@ -1,14 +1,14 @@
-﻿using System;
-namespace Prova.Data;
+﻿//using System;
+//namespace Prova.Data.Atrributes;
 
-[AttributeUsage(AttributeTargets.Class, Inherited = false)]
-public class BsonCollectionAttribute : Attribute
-{
-	public string CollectionName { get; }
+//[AttributeUsage(AttributeTargets.Class, Inherited = false)]
+//public class Collection : Attribute
+//{
+//	public string CollectionName { get; }
 
-	public BsonCollectionAttribute(string collectionName)
-	{
-		CollectionName = collectionName;
-	}
-}
+//	public Collection(string collectionName)
+//	{
+//		CollectionName = collectionName;
+//	}
+//}
 

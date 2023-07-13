@@ -2,12 +2,14 @@
 using System.Text.Json.Serialization;
 using MongoDB.Bson.Serialization.Attributes;
 using Prova.Data;
+using Prova.Data.Atrributes;
 using Prova.Data.Models;
+using CollectionAttribute = Prova.Data.CollectionAttribute;
 
 namespace Prova.Entity;
 
 [BsonIgnoreExtraElements]
-[BsonCollection("User")]
+[CollectionAttribute("User")]
 public class User : Document
 {
 	/// <summary>

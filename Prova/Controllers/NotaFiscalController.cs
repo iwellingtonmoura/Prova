@@ -2,10 +2,8 @@
 using AutoWrapper.Extensions;
 using AutoWrapper.Wrappers;
 using Microsoft.AspNetCore.Mvc;
-using Prova.Data.DTO.Request;
 using Prova.Data.DTO.Response;
 using Prova.Data.Models;
-using Prova.Data.Repositories;
 using Prova.DataManager;
 using Prova.Entity;
 
@@ -52,7 +50,8 @@ public class NotaFiscalController : Controller
 		{
 			try
 			{
-				return new ApiResponse( await _cadastrarNotaFiscalManager.CadastrarNotaFiscalAsync(invoice), StatusCodes.Status200OK);
+				return null;
+				//return new ApiResponse( await _cadastrarNotaFiscalManager.CadastrarNotaFiscalAsync(invoice), StatusCodes.Status200OK);
 			}
 			catch (ApiException ex)
 			{
@@ -87,7 +86,8 @@ public class NotaFiscalController : Controller
         {
             try
             {
-                return new ApiResponse(await _cadastrarRangeAprovacaoManager.CadastrarRangeAprovacaoAsync(approvalRange), StatusCodes.Status200OK);
+				return null;
+                //return new ApiResponse(await _cadastrarRangeAprovacaoManager.CadastrarRangeAprovacaoAsync(approvalRange), StatusCodes.Status200OK);
             }
             catch (ApiException ex)
             {

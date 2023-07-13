@@ -7,20 +7,20 @@ using Prova.Data.Models;
 namespace Prova.Entity
 {
     [BsonIgnoreExtraElements]
-    [BsonCollection("ApprovalRange")]
+    [Collection("ApprovalRange")]
     public class ApprovalRange : Document
 	{
         /// <summary>
         /// Faixa Inicial
         /// </summary>
         [JsonPropertyName("RangeInitial")]
-        public string RangeInitial { get; set; }
+        public string? RangeInitial { get; set; }
 
         /// <summary>
         /// Faixa Final
         /// </summary>
         [JsonPropertyName("RangeFinal")]
-        public string RangeFinal { get; set; }
+        public string? RangeFinal { get; set; }
 
         /// <summary>
         /// Vistos
