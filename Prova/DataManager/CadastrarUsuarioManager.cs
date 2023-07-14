@@ -11,7 +11,7 @@ namespace Prova.DataManager;
 
 public interface ICadastrarUsuarioManager
 {
-    Task CadastrarUsuarioAsync(User user);
+    Task<List<User>> CadastrarUsuarioAsync(User user);
     Task AtualizarUsuarioAsync(User user);
 }
 
@@ -29,12 +29,14 @@ public class CadastrarUsuarioManager : ICadastrarUsuarioManager
         _logger = logger;
     }
 
-
-    public async Task CadastrarUsuarioAsync(User user)
+    public async Task<List<User>> CadastrarUsuarioAsync(User user)
     {
         try
         {
-             await _mongoDbRepository.GetCollection<User>().InsertAsync(user);
+             await _mongoDbRepository.GetCollection<User>().InsertOneAsync(user);
+
+            List<User> users = _mongoDbRepository.GetCollection<User>().AsQueryable().Select(u => u).ToList();
+            return users;
         }
         catch (ApiException ex)
         {

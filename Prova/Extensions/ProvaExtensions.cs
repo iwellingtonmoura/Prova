@@ -29,9 +29,9 @@ namespace Prova.Extensions
 
             #region services
 
-            services.AddSingleton<ICadastrarUsuarioManager, CadastrarUsuarioManager>();
-            services.AddSingleton<ICadastrarNotaFiscalManager, CadastrarNotaFiscalManager>();
-            services.AddSingleton<ICadastrarRangeAprovacaoManager, CadastrarRangeAprovacaoManager>();
+            services.AddScoped<ICadastrarUsuarioManager, CadastrarUsuarioManager>();
+            //services.AddSingleton<ICadastrarNotaFiscalManager, CadastrarNotaFiscalManager>();
+            //services.AddSingleton<ICadastrarRangeAprovacaoManager, CadastrarRangeAprovacaoManager>();
 
             #endregion
 
