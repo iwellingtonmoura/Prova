@@ -1,22 +1,27 @@
-﻿<Properties StartupConfiguration="{617D23AC-1DA8-425F-B875-320AED246F35}|https" NuGet.AddPackagesDialog.IncludePrerelease="True" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Prova PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataManager/CadastrarRangeAprovacaoManager.cs">
+﻿<Properties GitUserInfo="UsingGIT" NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{617D23AC-1DA8-425F-B875-320AED246F35}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Extensions/ProvaExtensions.cs">
     <Files>
-      <File FileName="Entity/ApprovalRange.cs" />
-      <File FileName="Entity/Invoice.cs" Line="23" Column="16" />
-      <File FileName="DataManager/CadastrarRangeAprovacaoManager.cs" Line="5" Column="1" />
+      <File FileName="DataManager/CadastrarUsuarioManager.cs" />
+      <File FileName="Program.cs" Line="20" Column="28" />
+      <File FileName="Extensions/ProvaExtensions.cs" Line="12" Column="22" />
+      <File FileName="Services/ProvaConfiguration.cs" />
+      <File FileName="Data/Models/BaseMongoDbRepository.cs" />
+      <File FileName="appsettings.Development.json" Line="5" Column="98" />
+      <File FileName="Controllers/UsuarioController.cs" />
+      <File FileName="Data/Models/CollectionAttribute.cs" />
+      <File FileName="Entity/User.cs" />
+      <File FileName="Data/Models/Document.cs" Line="42" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Prova">
             <Node name="Prova">
-              <Node name="DataManager" expanded="True">
-                <Node name="CadastrarRangeAprovacaoManager.cs" selected="True" />
+              <Node name="Extensions" expanded="True">
+                <Node name="ProvaExtensions.cs" selected="True" />
               </Node>
-              <Node name="Entity" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Services" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
@@ -25,10 +30,19 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Prova PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/Controllers/UsuarioController.cs" relfile="Controllers/UsuarioController.cs" line="24" column="1" />
-    <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/DataManager/CadastrarUsuarioManager.cs" relfile="DataManager/CadastrarUsuarioManager.cs" line="27" column="1" />
-    <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/DataManager/CadastrarNotaFiscalManager.cs" relfile="DataManager/CadastrarNotaFiscalManager.cs" line="24" column="1" />
-    <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/Data/Repositories/MongoRepositorty.cs" relfile="Data/Repositories/MongoRepositorty.cs" line="80" column="1" />
+    <BreakpointStore>
+      <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/Controllers/UsuarioController.cs" relfile="Controllers/UsuarioController.cs" line="22" column="1" />
+      <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/DataManager/CadastrarNotaFiscalManager.cs" relfile="DataManager/CadastrarNotaFiscalManager.cs" line="25" column="1" />
+      <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/Data/Repositories/MongoRepositorty.cs" relfile="Data/Repositories/MongoRepositorty.cs" line="77" column="1" />
+      <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/Extensions/ProvaExtensions.cs" relfile="Extensions/ProvaExtensions.cs" line="13" column="1" />
+      <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/Program.cs" relfile="Program.cs" line="20" column="1" />
+      <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/DataManager/CadastrarUsuarioManager.cs" relfile="DataManager/CadastrarUsuarioManager.cs" line="19" column="1" />
+      <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/Extensions/ProvaExtensions.cs" relfile="Extensions/ProvaExtensions.cs" line="32" column="1" />
+      <Breakpoint file="/Users/wellingtonmoura/Projects/Desafio/Prova/Data/Models/BaseMongoDbRepository.cs" relfile="Data/Models/BaseMongoDbRepository.cs" line="8" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

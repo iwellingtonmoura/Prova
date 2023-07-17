@@ -1,4 +1,6 @@
 ﻿using System;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Prova.Data.Interfaces;
 using Prova.Data.Models;
 using Prova.DataManager;
@@ -25,13 +27,14 @@ namespace Prova.Extensions
 			// Add DI
 
 			services.AddScoped<IMongoDbRepository<ProvaConfiguration>, BaseMongoDbRepository<ProvaConfiguration>>();
+			//services.AddValidatorsFromAssemblyContaining(ModelExampleRequest);
 
 
-            #region services
+            #region managers
 
             services.AddScoped<ICadastrarUsuarioManager, CadastrarUsuarioManager>();
-            //services.AddSingleton<ICadastrarNotaFiscalManager, CadastrarNotaFiscalManager>();
-            //services.AddSingleton<ICadastrarRangeAprovacaoManager, CadastrarRangeAprovacaoManager>();
+            services.AddScoped<ICadastrarNotaFiscalManager, CadastrarNotaFiscalManager>();
+            services.AddScoped<ICadastrarRangeAprovacaoManager, CadastrarRangeAprovacaoManager>();
 
             #endregion
 
