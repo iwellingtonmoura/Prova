@@ -1,5 +1,5 @@
 is_global = true
-build_property.DesignTimeBuild = 
+build_property.DesignTimeBuild = true
 build_property.MSBuildProjectFullPath = /Users/wellingtonmoura/Projects/Desafio/Prova/Prova.csproj
 build_property.DebugSponsorLink = 
 build_property.ThisAssemblyNamespace = 
