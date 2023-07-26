@@ -6,8 +6,9 @@
     using Prova.Extensions;
     using Microsoft.AspNetCore.Diagnostics.HealthChecks;
     using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Prova.Services;
 
-    var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
 
 
 
@@ -22,6 +23,8 @@
     //Adicionando a classe que injeta os serviços.
     builder.Services.AddProvaWorker(builder.Configuration);
     builder.Services.AddHealthChecks();
+    builder.Services.AddSingleton<ICacheRedis, CacheRedisService>();
+    builder.Services.AddStackExchangeRedisCache(option => option.Configuration = builder.Configuration.GetConnectionString("Redis"));
 
     //builder.Services.AddMemoryCache();
 

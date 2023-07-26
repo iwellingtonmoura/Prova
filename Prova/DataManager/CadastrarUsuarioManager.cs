@@ -20,19 +20,24 @@ public class CadastrarUsuarioManager : ICadastrarUsuarioManager
 {
     private readonly IMongoDbRepository<ProvaConfiguration> _mongoDbRepository;
     private readonly ILogger<CadastrarUsuarioManager> _logger;
+    private readonly ICacheRedis _cacheRedis;
 
     public CadastrarUsuarioManager(
         IMongoDbRepository<ProvaConfiguration> mongoDbRepository,
-        ILogger<CadastrarUsuarioManager> logger)
+        ILogger<CadastrarUsuarioManager> logger,
+        ICacheRedis cacheRedis)
     {
         _mongoDbRepository = mongoDbRepository;
         _logger = logger;
+        _cacheRedis = cacheRedis;
     }
 
     public async Task<List<User>> CadastrarUsuarioAsync(User user)
     {
         try
         {
+             await _cacheRedis.InserirDadosCacheRedis<User>(user, user.Login);
+
              await _mongoDbRepository.GetCollection<User>().InsertOneAsync(user);
 
             List<User> users = _mongoDbRepository.GetCollection<User>().AsQueryable().Select(u => u).ToList();
