@@ -33,6 +33,8 @@
     <PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="7.0.0-rc2.6" />
     <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="7.0.0-rc2.7" />
     <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.0-preview.6.23329.11" />
+    <PackageReference Include="AsyncAwaitBestPractices" Version="6.0.6" />
+    <PackageReference Include="AsyncEnumerator" Version="4.0.2" />
   </ItemGroup>
 
   <ItemGroup>

@@ -13,6 +13,8 @@
           "AspNetCore.HealthChecks.UI.Client": "7.0.0-rc2.7",
           "AspNetCore.HealthChecks.UI.Core": "7.0.0-rc2.7",
           "AspNetCore.HealthChecks.UI.InMemory.Storage": "7.0.0-rc2.7",
+          "AsyncAwaitBestPractices": "6.0.6",
+          "AsyncEnumerator": "4.0.2",
           "AutoWrapper.Core": "4.5.0",
           "FluentValidation": "11.6.0",
           "FluentValidation.AspNetCore": "11.3.0",
@@ -104,6 +106,22 @@
           "lib/net6.0/HealthChecks.UI.InMemory.Storage.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices/6.0.6": {
+        "runtime": {
+          "lib/net7.0/AsyncAwaitBestPractices.dll": {
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.5.0"
+          }
+        }
+      },
+      "AsyncEnumerator/4.0.2": {
+        "runtime": {
+          "lib/netstandard2.1/AsyncEnumerable.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
           }
         }
       },
@@ -1710,6 +1728,20 @@
       "sha512": "sha512-6p9u2BC4KVWi79nT/3gnz/qlKlynWZjlvVeGgrm0aRRKMwV+cb/MdU8gxjni+h6v7i0WpPPAy7sqiirewgMWEg==",
       "path": "aspnetcore.healthchecks.ui.inmemory.storage/7.0.0-rc2.7",
       "hashPath": "aspnetcore.healthchecks.ui.inmemory.storage.7.0.0-rc2.7.nupkg.sha512"
+    },
+    "AsyncAwaitBestPractices/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5JwyXsa0357gUCfrm741ae10LuWRl/V3JmBLL/7ddTeyA0ajWm4Ze+WCzweSzz2Pd8MT6T9PDVNK8pjZ9ezt6A==",
+      "path": "asyncawaitbestpractices/6.0.6",
+      "hashPath": "asyncawaitbestpractices.6.0.6.nupkg.sha512"
+    },
+    "AsyncEnumerator/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mjBg9pGuQVbCeC/3t75B74mRjIIqOg6o212CJ7g37wRrPIJTGzuFKo9/TsVuJl2by2I1ESJLyFnNFHHEMRUysA==",
+      "path": "asyncenumerator/4.0.2",
+      "hashPath": "asyncenumerator.4.0.2.nupkg.sha512"
     },
     "AutoMapper/9.0.0": {
       "type": "package",

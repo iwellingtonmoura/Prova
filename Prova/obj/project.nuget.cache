@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q19zR6DLhQepXI12w3a1ngwU2oObftKez17vXWf6Wk038pNv48TTCpy2BUjrdSZkGAPLIC9132jbA/R5wHFf0g==",
+  "dgSpecHash": "YiLKyAo+iCkU1pQuQ7WX6Ym/N1t8OC5wPP/oBRE2ZomJbglDNEPxUNZkWdmoK5+/sKX/IWNArP2UvtlWC2RIhA==",
   "success": true,
   "projectFilePath": "/Users/wellingtonmoura/Projects/Desafio/Prova/Prova.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "/Users/wellingtonmoura/.nuget/packages/aspnetcore.healthchecks.ui.core/7.0.0-rc2.7/aspnetcore.healthchecks.ui.core.7.0.0-rc2.7.nupkg.sha512",
     "/Users/wellingtonmoura/.nuget/packages/aspnetcore.healthchecks.ui.data/7.0.0-rc2.7/aspnetcore.healthchecks.ui.data.7.0.0-rc2.7.nupkg.sha512",
     "/Users/wellingtonmoura/.nuget/packages/aspnetcore.healthchecks.ui.inmemory.storage/7.0.0-rc2.7/aspnetcore.healthchecks.ui.inmemory.storage.7.0.0-rc2.7.nupkg.sha512",
+    "/Users/wellingtonmoura/.nuget/packages/asyncawaitbestpractices/6.0.6/asyncawaitbestpractices.6.0.6.nupkg.sha512",
+    "/Users/wellingtonmoura/.nuget/packages/asyncenumerator/4.0.2/asyncenumerator.4.0.2.nupkg.sha512",
     "/Users/wellingtonmoura/.nuget/packages/automapper/9.0.0/automapper.9.0.0.nupkg.sha512",
     "/Users/wellingtonmoura/.nuget/packages/autowrapper.core/4.5.0/autowrapper.core.4.5.0.nupkg.sha512",
     "/Users/wellingtonmoura/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
